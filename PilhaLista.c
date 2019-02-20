@@ -1,7 +1,7 @@
 /*=====================================================
 
 Montar uma lista encadeada a partir dos valores que 
-estão nas pilhas par e impar de forma alternada
+estÃ£o nas pilhas par e impar de forma alternada
 
 
 Pilha PAR: 2 | 8 | 4
@@ -250,7 +250,7 @@ void imprimeLista(){
 	else{
     	printf("\n\nLista Alternada: ");
     
-		while(listar != NULL){ //esse while é diferente, pois esta pegando o conteudo de dentro, como um todo, se for colocar listar->prox só imprime o proximo.
+		while(listar != NULL){ //esse while Ã© diferente, pois esta pegando o conteudo de dentro, como um todo, se for colocar listar->prox sÃ³ imprime o proximo.
 	    	printf(" %d ", listar->num);
 	    	listar = listar->prox;
 	    }
